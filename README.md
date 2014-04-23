@@ -1,7 +1,9 @@
 jQueryMXNotice
 ==============
 
-##[Демо-страница](https://nodei.co/npm/jquery.browser/)
+##[Демо-страница](http://milaxcom.github.io/jQueryMXNotice/demo/)
+
+##[Скачать](https://github.com/milaxcom/jQueryMXNotice/archive/gh-pages.zip)
 
 jQuery MXNotice предназначен для отображения уведомлений на странице с помощью JS.
 
