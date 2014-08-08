@@ -1,5 +1,5 @@
 /**
- * jQueryMXNotice v1.0
+ * jQueryMXNotice v1.1
  *
  * Copyright 2014 Milax
  * http://www.milax.com/
@@ -20,6 +20,8 @@ MXNotice = function ( data ) {
 		/** Стартовый метод вызова — собирает очередь из meta */
 		
 		var $meta = $("meta[name ^= 'mxnotice']");
+		if ( !$meta.length ) return false;
+
 		var data = {};
 		var name, param;
 
